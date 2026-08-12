@@ -97,25 +97,7 @@ Every address follows this format: ZN-XXX-YYY-BBB-GG-NNN
 - Mapbox API key
 - Firebase project credentials
 
-### Backend Setup
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/zanpost-gps.git
-cd zanpost-gps
-
-# Install backend dependencies
-npm install
-
-# Configure environment variables
-cp .env.example .env
-# Edit .env with your database, Mapbox, and Firebase keys
-
-# Run database migrations
-npm run migrate
-
-# Start the development server
-npm run dev
 
 
 # 🛡️ ZanPost GPS – Supervisor Defense FAQ
